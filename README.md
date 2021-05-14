@@ -42,3 +42,4 @@ A notification webhook is needed in a discord space for keeping all channel memb
 
 10. Now when you meet the event requirements for the webhook, you should receive the notification in discord.
 
+11. Enjoy your webhook!
