@@ -3,11 +3,12 @@
 Instructions and walk through for setting up a webhook in discord for github notifications
 
 ## Challenge
-A notification webhook is needed in a discord space for keeping all channel members in the loop regarding changes to a target repository
+A notification system is needed in a discord channel for keeping all channel/team members in the loop regarding changes to a target repository. 
 
 ## Solution
-1. Create your desired Discord channel and Github repository
-2. Open the repository and go to the settings page
+1. You will need to have permissions in the desired Discord channel and access to the Github repository.
+   
+2. Navigate to the GitHub repository you want notifications for and go to the settings page
 
 ![Repo settings](./images/1.png)
 
@@ -15,7 +16,7 @@ A notification webhook is needed in a discord space for keeping all channel memb
 
 ![Webhook page](images/2.png)
 
-4. You will need the "Payload URL" from Discord explained in the next steps, the "Content type" set to "application/json", and which events you wish to receive 
+4. You will need the "Payload URL" from Discord, explained in the next steps, the "Content type" set to "application/json", and which events you wish to receive 
 
 ![Webhook Github settings](images/3.png)
 
@@ -44,4 +45,4 @@ A notification webhook is needed in a discord space for keeping all channel memb
 
 ![Discord notification](images/10.png)
 
-11. Enjoy your webhook!
+11. Enjoy your notifications via a webhook!
