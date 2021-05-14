@@ -31,7 +31,7 @@ A notification webhook is needed in a discord space for keeping all channel memb
    
 ![Discord Webhook bot settings](images/6.png)
 
-8. Paste the copied URL from step 7 into the GitHub webhook page from step 3. Make sure you append "/github" to the end of the Discord hook URL or you will get a 400 response error. Check your settings. Hit "Add Webhook".
+8. Paste the copied URL from step 7 into the GitHub webhook page from step 3. **Make sure you append "/github" to the end of the Discord hook URL or you will get a 400 response error in the Github wekhook page**. Check your settings. Hit "Add Webhook".
    
 ![Webhook Github settings filled](images/7.png)
 
@@ -41,5 +41,7 @@ A notification webhook is needed in a discord space for keeping all channel memb
 ![Discord Webhook bot list](images/9.png)
 
 10. Now when you meet the event requirements for the webhook, you should receive the notification in discord.
+
+![Discord notification](images/10.png)
 
 11. Enjoy your webhook!
